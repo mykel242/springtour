@@ -27,3 +27,6 @@
     "client_secret_expires_at":0
   }
 ```
+
+## Setting up Github OAuth 2.0
+configure app: https://github.com/settings/apps/dp-springtour
