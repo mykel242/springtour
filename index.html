@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mastodon OAuth Login</title>
+    </head>
+    <body>
+        <h2>Login with Mastodon</h2>
+        <button onclick="login()">Login</button>
+        <div id="user-info"></div>
+
+        <script>
+            function login() {
+                window.location.href = "http://localhost:3333/login";
+            }
+        </script>
+    </body>
+</html>
